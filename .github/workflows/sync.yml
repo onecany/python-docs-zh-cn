@@ -11,7 +11,7 @@ on:
         type: string
     secrets:
       TRANSIFEX_APIKEY:
-        required: true
+        required: false
 
 jobs:
   sync:
